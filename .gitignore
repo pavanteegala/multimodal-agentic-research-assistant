@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+
+# IDE / Editor
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Generated application data
+data/processed/
+data/vector_store/
+data/visual_vector_store/
+data/visual_analysis/
+data/images/
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Local PDF documents
+data/documents/*.pdf
